@@ -1,0 +1,21 @@
+name: flutter_apns_tool
+description: A new flutter plugin for request notifications permission and get device token.
+version: 1.0.3
+author: Joe Ciou <joeciou810@gmail.com>
+homepage: https://github.com/JoeCiou/flutter_apns_tool
+
+environment:
+  sdk: ">=2.1.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  plugin:
+    androidPackage: com.JoeCiou.flutter_apns_tool
+    pluginClass: FlutterApnsToolPlugin
